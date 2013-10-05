@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BA725F917FF52C0007B9513 /* timkaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BA725F817FF52C0007B9513 /* timkaoViewController.xib */; };
 		3BFBE67717FF3AE200CED1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFBE67617FF3AE200CED1A9 /* Foundation.framework */; };
 		3BFBE67917FF3AE200CED1A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFBE67817FF3AE200CED1A9 /* CoreGraphics.framework */; };
 		3BFBE67B17FF3AE200CED1A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BFBE67A17FF3AE200CED1A9 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BA725F817FF52C0007B9513 /* timkaoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = timkaoViewController.xib; sourceTree = "<group>"; };
 		3BFBE67317FF3AE200CED1A9 /* CoinToss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinToss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFBE67617FF3AE200CED1A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3BFBE67817FF3AE200CED1A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +119,7 @@
 				3BFBE68817FF3AE200CED1A9 /* Main.storyboard */,
 				3BFBE68B17FF3AE200CED1A9 /* timkaoViewController.h */,
 				3BFBE68C17FF3AE200CED1A9 /* timkaoViewController.m */,
+				3BA725F817FF52C0007B9513 /* timkaoViewController.xib */,
 				3BFBE68E17FF3AE200CED1A9 /* Images.xcassets */,
 				3BFBE67D17FF3AE200CED1A9 /* Supporting Files */,
 			);
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BFBE68F17FF3AE200CED1A9 /* Images.xcassets in Resources */,
+				3BA725F917FF52C0007B9513 /* timkaoViewController.xib in Resources */,
 				3BFBE68117FF3AE200CED1A9 /* InfoPlist.strings in Resources */,
 				3BFBE68A17FF3AE200CED1A9 /* Main.storyboard in Resources */,
 			);
@@ -379,10 +383,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoinToss/CoinToss-Prefix.pch";
 				INFOPLIST_FILE = "CoinToss/CoinToss-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +399,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CoinToss/CoinToss-Prefix.pch";
 				INFOPLIST_FILE = "CoinToss/CoinToss-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +471,7 @@
 				3BFBE6A717FF3AE200CED1A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BFBE6A817FF3AE200CED1A9 /* Build configuration list for PBXNativeTarget "CoinTossTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +480,7 @@
 				3BFBE6AA17FF3AE200CED1A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

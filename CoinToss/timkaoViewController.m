@@ -7,13 +7,23 @@
 //
 
 #import "timkaoViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
-@interface timkaoViewController ()
-
-@end
 
 @implementation timkaoViewController
+@synthesize status,result;
 
+
+
+
+
+-(void) runprocess:(BOOL)userCalledHeads{
+    BOOL coinLandedOnHeads = (arc4random()%2) == 0;
+    
+    result.text = coinLandedOnHeads?@"Heads" : @"Tails";
+    
+    
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
