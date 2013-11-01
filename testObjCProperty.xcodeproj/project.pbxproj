@@ -10,6 +10,8 @@
 		3BC67A261823FE14003FF6F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC67A251823FE14003FF6F6 /* Foundation.framework */; };
 		3BC67A291823FE14003FF6F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC67A281823FE14003FF6F6 /* main.m */; };
 		3BC67A2D1823FE14003FF6F6 /* testObjCProperty.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3BC67A2C1823FE14003FF6F6 /* testObjCProperty.1 */; };
+		3BC67A351823FF1B003FF6F6 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC67A341823FF1B003FF6F6 /* Person.m */; };
+		3BC67A381823FF34003FF6F6 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC67A371823FF34003FF6F6 /* Teacher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		3BC67A281823FE14003FF6F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3BC67A2B1823FE14003FF6F6 /* testObjCProperty-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testObjCProperty-Prefix.pch"; sourceTree = "<group>"; };
 		3BC67A2C1823FE14003FF6F6 /* testObjCProperty.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = testObjCProperty.1; sourceTree = "<group>"; };
+		3BC67A331823FF1B003FF6F6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		3BC67A341823FF1B003FF6F6 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		3BC67A361823FF34003FF6F6 /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		3BC67A371823FF34003FF6F6 /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,10 @@
 				3BC67A281823FE14003FF6F6 /* main.m */,
 				3BC67A2C1823FE14003FF6F6 /* testObjCProperty.1 */,
 				3BC67A2A1823FE14003FF6F6 /* Supporting Files */,
+				3BC67A331823FF1B003FF6F6 /* Person.h */,
+				3BC67A341823FF1B003FF6F6 /* Person.m */,
+				3BC67A361823FF34003FF6F6 /* Teacher.h */,
+				3BC67A371823FF34003FF6F6 /* Teacher.m */,
 			);
 			path = testObjCProperty;
 			sourceTree = "<group>";
@@ -139,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BC67A381823FF34003FF6F6 /* Teacher.m in Sources */,
+				3BC67A351823FF1B003FF6F6 /* Person.m in Sources */,
 				3BC67A291823FE14003FF6F6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
